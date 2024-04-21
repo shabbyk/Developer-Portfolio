@@ -9,13 +9,16 @@ export default function Header() {
             <NavBar />
             <div className="header flex light-bg">
                 <div>
-                    <button>Front-End Developer</button>
-                    <h1 className="white">Talk is cheap.</h1>
-                    <h1 className="white">Show me the code!</h1>
-                    <p className="gray">I design and code beautiful simple things, and I love what I do.</p>
-                    <a className="green" href="mailto:contact@blaiti.com">Let&#39;s chat!</a>
+                    <button>Software Engineer</button>
+                    <h1 className="white">From Code to Customer</h1>
+                    <h1 className="white">Deliver the Solution!</h1>
+                    <p className="gray">I craft and refine efficient digital tools, and I thrive in what I do.</p>
+                    <a className="green" href="mailto:shahbaazkhan@outlook.com">Let&#39;s connect!</a>
                 </div>
-                <Image src="/images/blaiti.png" width={463} height={513} alt="blaiti"  /> 
+                <div>
+                    <Image src="/images/2022_Award_Winner.png" width={200} height={200} alt="Microsft 2022 Award Winner" />
+                    <Image src="/images/2022_EX_Winner.png" width={200} height={200} alt="Microsft 2022 Executive Award Winner" />
+                </div>
             </div>
         </header>
     )
